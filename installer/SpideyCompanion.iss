@@ -70,7 +70,6 @@ Source: "{#PkgDir}\update-feed.txt"; DestDir: "{app}"; Flags: onlyifdoesntexist 
 ; Full source ships with the app, as the README promises.
 Source: "{#SrcDir}\Program.cs"; DestDir: "{app}"; Flags: ignoreversion
 Source: "{#SrcDir}\Buddy.cs"; DestDir: "{app}"; Flags: ignoreversion
-Source: "{#SrcDir}\
 
 [Icons]
 Name: "{group}\Spidey Companion"; Filename: "{app}\{#ExeName}"
