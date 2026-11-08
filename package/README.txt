@@ -112,7 +112,7 @@ SOURCE CODE / TRUST
   is nothing else to install). Rebuild it yourself with the free
   .NET SDK:  dotnet build -c Release
   SHA-256 of the included SpideyCompanion-v1.3.1.exe:
-  28abb3bc54c496570390ca42cae2b868b92c32d09883314c6e5c1a6a164bd700
+  a724675e7b278c8f8bf69a796932765006a04d2909d127dbb7a8e3be1208b45a
 
 CREDITS
   The buddy's poses are the 46 frames of a "Shimeji" Spider-Man
