@@ -2,29 +2,37 @@
 
 A tiny Windows helper app that adds media controls and hardware temps plus a desktop buddy to Wallpaper Engine web wallpapers.
 
-Web wallpapers can't control media playback by themselves, so Spidey Companion runs on `127.0.0.1:8471` with a tray icon (since the buddy release) on `127.0.0.1:8471` and provides working **play/pause, next/previous and seek** over a local HTTP endpoint. It also passes **CPU/GPU temperatures** through from LibreHardwareMonitor.
+Web wallpapers can't control media playback by themselves, so Spidey Companion runs on `127.0.0.1:8471` with a tray icon and provides working **play/pause, next/previous and seek** over a local HTTP endpoint. It also passes **CPU/GPU temperatures** through from LibreHardwareMonitor.
 
 ## Download
 
-From v1.3.0 the buddy build ships as ONE installer file:
-**SpideyCompanion-Setup-v1.3.0.exe** - grab it from this repo's
-Actions tab (the "Build installer" workflow attaches it to every
-run) or from Releases when one is published. Run it: it installs
-per-user, no admin, and can be uninstalled from Windows Settings
-like any app.
+**[Download SpideyCompanion-Setup-v1.3.0.exe](https://github.com/DaddyKing816/SpideyCompanion/releases/download/v1.3.0/SpideyCompanion-Setup-v1.3.0.exe)**
 
-New in this build: a chibi Spider-Man buddy (46 Shimeji poses)
-who lives on your desktop - he walks along the taskbar, sits,
-lies down, web-swing jumps, climbs your screen edges, and can be
-dragged and dropped. Right-click his tray icon to control him.
+Or browse every version on the [Releases page](https://github.com/DaddyKing816/SpideyCompanion/releases).
+
+One file, nothing to unzip. Run it: it installs per-user (no admin) and starts Spidey right away. Run the same installer again later and it checks GitHub for the latest version, then offers **Update** or **Uninstall**. You can also uninstall any time from Windows Settings, like any app.
+
+Windows SmartScreen may warn because the app is unsigned: choose **More info → Run anyway**.
 
 ## Install
 
-1. Unzip `SpideyCompanion-v1.2.1.zip`
-2. Run `Install-SpideyCompanion.bat`
-3. Start Spidey Companion — it sits in the background, no window
+1. Download the installer from the link above
+2. Run `SpideyCompanion-Setup-v1.3.0.exe` — no admin needed, it installs just for your user account
+3. That's it: Spidey appears at the bottom of your screen and a Spidey icon lands in your tray (right-click it for his controls), and the media service starts on `127.0.0.1:8471`
 
-Windows SmartScreen may warn because the app is unsigned: choose **More info → Run anyway**.
+To update later, just run the newest installer again — it detects your installed version and offers **Update** or **Uninstall**. To remove it without the installer: Windows Settings → Apps → Spidey Companion → Uninstall.
+
+## What's in v1.3.0
+
+A chibi Spider-Man buddy (46 Shimeji poses, art by haydentheartist) who lives on your desktop: he walks along the taskbar, sits, lies down, does web-swing jumps, climbs your screen edges, and can be dragged and dropped - just grab him.
+
+Right-click his tray icon to control him:
+
+- **Show buddy** on/off
+- **Wallpaper only** - he stays on the desktop layer, behind your windows
+- **Buddy size** - 96 / 128 / 160 px
+- **Pace** and **Swing height** (Small hop / Classic / Big swing)
+- **Jump now**, **Climb a wall**, **Show an emotion**, **Walk now**
 
 ## Requirements
 
@@ -36,11 +44,11 @@ Windows SmartScreen may warn because the app is unsigned: choose **More info →
 
 Spidey Companion talks to the Windows media session (the same system Spotify, browsers and media players report to), so it controls whatever is actually playing. It only listens on your own machine (127.0.0.1) — nothing leaves your PC.
 
-It can also update itself: if an `update-feed.txt` next to the app points at a version file, it checks on startup and every 12 hours, verifies the download's SHA-256 hash, and swaps itself in place.
+It can also update itself: the installed `update-feed.txt` points at this repo's `feed.txt`, so the app checks on startup and every 12 hours, verifies the download's SHA-256 hash, and swaps itself in place when a newer version is published here.
 
 ## Source
 
-`Program.cs` in the Releases zip is the full source of the shipped build.
+Full source lives in this repo: `src/` (the app), `installer/` (Inno Setup script), `installer-exe/` (the single-file installer) — the installer also drops `Program.cs` and `Buddy.cs` next to the installed app.
 
 ---
 
