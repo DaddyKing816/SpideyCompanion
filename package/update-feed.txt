@@ -1,10 +1,5 @@
-# Spidey Companion update feed.
-# To switch on automatic updates, host two files at stable direct links:
-#   1) a small version file (e.g. spidey-version.txt) containing:
-#        version=1.3.0
-#        url=https://your-link/SpideyCompanion-v1.3.0.exe
-#        sha256=<sha-256 of the exe>     (optional but recommended)
-#   2) the new companion exe itself (its file name carries its version)
-# Then paste the version file's URL after feed= below (no spaces).
-# Leave feed= blank and the companion simply never checks for updates.
-feed=
+# Spidey Companion update feed - live since v1.3.0.
+# The app reads the version file at the URL below (version= / url= /
+# sha256= lines) on startup and every 12 hours, and offers the update
+# only when the hosted version is newer than the installed one.
+feed=https://raw.githubusercontent.com/DaddyKing816/SpideyCompanion/main/feed.txt
