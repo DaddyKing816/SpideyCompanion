@@ -8,10 +8,10 @@
 ;
 ;  HOW TO BUILD THE INSTALLER
 ;  This script is compiled on WINDOWS (Inno Setup is Windows-only):
-;    1. Build the app:   dotnet build src -c Release -o dist
+;    1. Build the app:   dotnet build src -c Release -o build-out
 ;       then rename the outputs to the versioned names this script
 ;       expects:  SpideyCompanion-v1.3.0.exe  (+ the same for .config)
-;       (this script reads the exe + config from ..\dist, docs from
+;       (this script reads the exe + config from ..\build-out, docs from
 ;        ..\package, sources from ..\src, relative to its own folder;
 ;        the GitHub Action does the rename automatically)
 ;    2. Compile:         "C:\Program Files (x86)\Inno Setup 6\ISCC.exe" installer\SpideyCompanion.iss
@@ -27,7 +27,7 @@
 #define AppName "Spidey Companion"
 #define AppVersion "1.3.0"
 #define ExeName "SpideyCompanion-v1.3.0.exe"
-#define StageDir "..\dist"
+#define StageDir "..\build-out"
 #define PkgDir "..\package"
 #define SrcDir "..\src"
 
