@@ -6,7 +6,7 @@ Web wallpapers can't control media playback by themselves, so Spidey Companion r
 
 ## Download
 
-**[Download SpideyCompanion-Setup-v1.3.0.exe](https://github.com/DaddyKing816/SpideyCompanion/releases/download/v1.3.0/SpideyCompanion-Setup-v1.3.0.exe)**
+**[Download SpideyCompanion-Setup-v1.3.1.exe](https://github.com/DaddyKing816/SpideyCompanion/releases/download/v1.3.1/SpideyCompanion-Setup-v1.3.1.exe)**
 
 Or browse every version on the [Releases page](https://github.com/DaddyKing816/SpideyCompanion/releases).
 
@@ -17,18 +17,18 @@ Windows SmartScreen may warn because the app is unsigned: choose **More info →
 ## Install
 
 1. Download the installer from the link above
-2. Run `SpideyCompanion-Setup-v1.3.0.exe` — no admin needed, it installs just for your user account
+2. Run `SpideyCompanion-Setup-v1.3.1.exe` — no admin needed, it installs just for your user account
 3. That's it: Spidey appears at the bottom of your screen and a Spidey icon lands in your tray (right-click it for his controls), and the media service starts on `127.0.0.1:8471`
 
 To update later, just run the newest installer again — it detects your installed version and offers **Update** or **Uninstall**. To remove it without the installer: Windows Settings → Apps → Spidey Companion → Uninstall.
 
-## What's in v1.3.0
+## What's in v1.3.1
 
 A chibi Spider-Man buddy (46 Shimeji poses, art by haydentheartist) who lives on your desktop: he walks along the taskbar, sits, lies down, does web-swing jumps, climbs your screen edges, and can be dragged and dropped - just grab him.
 
-Right-click his tray icon to control him:
+He's **off by default** — fresh installs run just the media service until you switch him on:
 
-- **Show buddy** on/off
+- **Show buddy** on/off (tray icon, right-click)
 - **Wallpaper only** - he stays on the desktop layer, behind your windows
 - **Buddy size** - 96 / 128 / 160 px
 - **Pace** and **Swing height** (Small hop / Classic / Big swing)
