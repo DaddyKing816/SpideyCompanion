@@ -1,1 +1,75 @@
-Ly8gPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQovLyAgQSB0aW55IGJ1aWxkLXRpbWUgdG9vbCAobm90IHNoaXBwZWQpOiByZWFzc2VtYmxlcyB0aGUgYnVkZHkncyBQTkcgcG9zZXMKLy8gIGZyb20gcG9zZXMtaWRhdC5qc29uIGF0IGJ1aWxkIHRpbWUuCi8vICBXaHk6IHRoZSBHaXRIdWIgc25hcHNob3QgdG9vbGluZyB1c2VkIGZvciB0aGlzIHJlcG8gYWNjZXB0cyBVVEYtOCB0ZXh0Ci8vICBvbmx5LCBzbyB0aGUgcG9zZXMgdHJhdmVsIGFzIEpTT04gLSBwZXIgcG9zZSwgdGhlIGNvbXByZXNzZWQgcGl4ZWwKLy8gIHN0cmVhbSAodGhlIFBORyBJREFUIGNodW5rIHBheWxvYWQpIHBsdXMgdGhlIHNtYWxsIGhlYWRlci90cmFpbGVyCi8vICBjaHVua3MsIGFsbCBiYXNlNjQuIEEgUE5HIGlzIGxlbmd0aC1wcmVmaXhlZCBjaHVua3MsIHNvIHRoZSBvcmlnaW5hbAovLyAgZmlsZSBpcyByZWJ1aWx0IGV4YWN0bHk6IGhlYWQgKyBsZW5ndGggKyAiSURBVCIgKyBkYXRhICsgdHJhaWxlciwKLy8gIGJ5dGUtZm9yLWJ5dGUgaWRlbnRpY2FsICh2ZXJpZmllZDogNDYgZnJhbWVzLCAwIGJ5dGUgZGlmZmVyZW5jZXMpLgovLyAgQXJ0OiB0aGUgU2hpbWVqaSBTcGlkZXItTWFuIHBvc2VzIGJ5IGhheWRlbnRoZWFydGlzdCAoUmVkZGl0KS4KLy8gPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQp1c2luZyBTeXN0ZW07CnVzaW5nIFN5c3RlbS5Db2xsZWN0aW9ucy5HZW5lcmljOwp1c2luZyBTeXN0ZW0uSU87CnVzaW5nIFN5c3RlbS5UZXh0LlJlZ3VsYXJFeHByZXNzaW9uczsKCmludGVybmFsIHN0YXRpYyBjbGFzcyBQb3NlVG9vbAp7CiAgICBwcml2YXRlIHN0YXRpYyBpbnQgTWFpbihzdHJpbmdbXSBhcmdzKQogICAgewogICAgICAgIGlmIChhcmdzLkxlbmd0aCA8IDMpCiAgICAgICAgewogICAgICAgICAgICBDb25zb2xlLkVycm9yLldyaXRlTGluZSgidXNhZ2U6IFBvc2VUb29sIDxvdXRkaXI+IDxwb3Nlcy1pZGF0Lmpzb24+IFttb3JlLmpzb24gLi4uXSIpOwogICAgICAgICAgICByZXR1cm4gMjsKICAgICAgICB9CiAgICAgICAgRGlyZWN0b3J5LkNyZWF0ZURpcmVjdG9yeShhcmdzWzBdKTsKICAgICAgICBpbnQgY291bnQgPSAwOwogICAgICAgIHZhciBtZXRhID0gbmV3IERpY3Rpb25hcnk8c3RyaW5nLCBzdHJpbmdbXT4oKTsKICAgICAgICBmb3IgKGludCBhID0gMTsgYSA8IGFyZ3MuTGVuZ3RoOyBhKyspCiAgICAgICAgewogICAgICAgICAgICBzdHJpbmcganNvbiA9IEZpbGUuUmVhZEFsbFRleHQoYXJnc1thXSk7CiAgICAgICAgICAgIHN0cmluZyBkYXRhU2VjID0gU2VjdGlvbihqc29uLCAiXCJkYXRhXCIiKTsKICAgICAgICAgICAgc3RyaW5nIG1ldGFTZWMgPSBTZWN0aW9uKGpzb24sICJcIm1ldGFcIiIpOwogICAgICAgICAgICBmb3JlYWNoIChNYXRjaCBtIGluIFJlZ2V4Lk1hdGNoZXMoZGF0YVNlYywgIlwiKHNoaW1lXFxkK1xcLnBuZylcIlxccyo6XFxzKlwiKFtBLVphLXowLTkrLz1dKylcIiIpKQogICAgICAgICAgICAgICAgRGF0YVttLkdyb3Vwc1sxXS5WYWx1ZV0gPSBDb252ZXJ0LkZyb21CYXNlNjRTdHJpbmcobS5Hcm91cHNbMl0uVmFsdWUpOwogICAgICAgICAgICBmb3JlYWNoIChNYXRjaCBtIGluIFJlZ2V4Lk1hdGNoZXMobWV0YVNlYywgIlwiKHNoaW1lXFxkK1xcLnBuZylcIlxccyo6XFxzKlxcW1xccypcIihbQS1aYS16MC05Ky89XSopXCJcXHMqLFxccypcIihbQS1aYS16MC05Ky89XSopXCJcXHMqXFxdIikpCiAgICAgICAgICAgICAgICBtZXRhW20uR3JvdXBzWzFdLlZhbHVlXSA9IG5ld1tdIHsgbS5Hcm91cHNbMl0uVmFsdWUsIG0uR3JvdXBzWzNdLlZhbHVlIH07CiAgICAgICAgfQoKICAgICAgICBmb3JlYWNoICh2YXIga3YgaW4gRGF0YSkKICAgICAgICB7CiAgICAgICAgICAgIGJ5dGVbXSBoZWFkID0gQ29udmVydC5Gcm9tQmFzZTY0U3RyaW5nKG1ldGFba3YuS2V5XVswXSk7CiAgICAgICAgICAgIGJ5dGVbXSByZXN0ID0gQ29udmVydC5Gcm9tQmFzZTY0U3RyaW5nKG1ldGFba3YuS2V5XVsxXSk7CiAgICAgICAgICAgIGJ5dGVbXSBpZGF0ID0ga3YuVmFsdWU7CiAgICAgICAgICAgIHVzaW5nICh2YXIgZnMgPSBuZXcgRmlsZVN0cmVhbShQYXRoLkNvbWJpbmUoYXJnc1swXSwga3YuS2V5KSwgRmlsZU1vZGUuQ3JlYXRlKSkKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgZnMuV3JpdGUoaGVhZCwgMCwgaGVhZC5MZW5ndGgpOwogICAgICAgICAgICAgICAgZnMuV3JpdGUobmV3W10geyAoYnl0ZSkoaWRhdC5MZW5ndGggPj4gMjQpLCAoYnl0ZSkoaWRhdC5MZW5ndGggPj4gMTYpLCAoYnl0ZSkoaWRhdC5MZW5ndGggPj4gOCksIChieXRlKWlkYXQuTGVuZ3RoIH0sIDAsIDQpOwogICAgICAgICAgICAgICAgYnl0ZVtdIHRhZyA9IHsgKGJ5dGUpJ0knLCAoYnl0ZSknRCcsIChieXRlKSdBJywgKGJ5dGUpJ1QnIH07CiAgICAgICAgICAgICAgICBmcy5Xcml0ZSh0YWcsIDAsIDQpOwogICAgICAgICAgICAgICAgZnMuV3JpdGUoaWRhdCwgMCwgaWRhdC5MZW5ndGgpOwogICAgICAgICAgICAgICAgZnMuV3JpdGUocmVzdCwgMCwgcmVzdC5MZW5ndGgpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIGNvdW50Kys7CiAgICAgICAgfQogICAgICAgIENvbnNvbGUuV3JpdGVMaW5lKCJwb3NlcyByZWJ1aWx0OiAiICsgY291bnQpOwogICAgICAgIHJldHVybiBjb3VudCA9PSA0NiA/IDAgOiAxOwogICAgfQoKICAgIHByaXZhdGUgc3RhdGljIHJlYWRvbmx5IERpY3Rpb25hcnk8c3RyaW5nLCBieXRlW10+IERhdGEgPSBuZXcgRGljdGlvbmFyeTxzdHJpbmcsIGJ5dGVbXT4oKTsKCiAgICBwcml2YXRlIHN0YXRpYyBzdHJpbmcgU2VjdGlvbihzdHJpbmcganNvbiwgc3RyaW5nIGtleSkKICAgIHsKICAgICAgICBpbnQgaSA9IGpzb24uSW5kZXhPZihrZXksIFN0cmluZ0NvbXBhcmlzb24uT3JkaW5hbCk7CiAgICAgICAgaWYgKGkgPCAwKSByZXR1cm4gIiI7CiAgICAgICAgaW50IHN0YXJ0ID0ganNvbi5JbmRleE9mKCd7JywgaSk7CiAgICAgICAgaW50IGRlcHRoID0gMDsKICAgICAgICBmb3IgKGludCBqID0gc3RhcnQ7IGogPCBqc29uLkxlbmd0aDsgaisrKQogICAgICAgIHsKICAgICAgICAgICAgaWYgKGpzb25bal0gPT0gJ3snKSBkZXB0aCsrOwogICAgICAgICAgICBlbHNlIGlmIChqc29uW2pdID09ICd9JyAmJiAtLWRlcHRoID09IDApIHJldHVybiBqc29uLlN1YnN0cmluZyhzdGFydCwgaiAtIHN0YXJ0ICsgMSk7CiAgICAgICAgfQogICAgICAgIHJldHVybiAiIjsKICAgIH0KfQo=
+// ============================================================================
+//  A tiny build-time tool (not shipped): reassembles the buddy's PNG poses
+//  from poses-idat.json at build time.
+//  Why: the GitHub snapshot tooling used for this repo accepts UTF-8 text
+//  only, so the poses travel as JSON - per pose, the compressed pixel
+//  stream (the PNG IDAT chunk payload) plus the small header/trailer
+//  chunks, all base64. A PNG is length-prefixed chunks, so the original
+//  file is rebuilt exactly: head + length + "IDAT" + data + trailer,
+//  byte-for-byte identical (verified: 46 frames, 0 byte differences).
+//  Art: the Shimeji Spider-Man poses by haydentheartist (Reddit).
+// ============================================================================
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Text.RegularExpressions;
+
+internal static class PoseTool
+{
+    private static int Main(string[] args)
+    {
+        if (args.Length < 3)
+        {
+            Console.Error.WriteLine("usage: PoseTool <outdir> <poses-idat.json> [more.json ...]");
+            return 2;
+        }
+        Directory.CreateDirectory(args[0]);
+        int count = 0;
+        var meta = new Dictionary<string, string[]>();
+        for (int a = 1; a < args.Length; a++)
+        {
+            string json = File.ReadAllText(args[a]);
+            string dataSec = Section(json, "\"data\"");
+            string metaSec = Section(json, "\"meta\"");
+            foreach (Match m in Regex.Matches(dataSec, "\"(shime\\d+\\.png)\"\\s*:\\s*\"([A-Za-z0-9+/=]+)\""))
+                Data[m.Groups[1].Value] = Convert.FromBase64String(m.Groups[2].Value);
+            foreach (Match m in Regex.Matches(metaSec, "\"(shime\\d+\\.png)\"\\s*:\\s*\\[\\s*\"([A-Za-z0-9+/=]*)\"\\s*,\\s*\"([A-Za-z0-9+/=]*)\"\\s*\\]"))
+                meta[m.Groups[1].Value] = new[] { m.Groups[2].Value, m.Groups[3].Value };
+        }
+
+        foreach (var kv in Data)
+        {
+            byte[] head = Convert.FromBase64String(meta[kv.Key][0]);
+            byte[] rest = Convert.FromBase64String(meta[kv.Key][1]);
+            byte[] idat = kv.Value;
+            using (var fs = new FileStream(Path.Combine(args[0], kv.Key), FileMode.Create))
+            {
+                fs.Write(head, 0, head.Length);
+                fs.Write(new[] { (byte)(idat.Length >> 24), (byte)(idat.Length >> 16), (byte)(idat.Length >> 8), (byte)idat.Length }, 0, 4);
+                byte[] tag = { (byte)'I', (byte)'D', (byte)'A', (byte)'T' };
+                fs.Write(tag, 0, 4);
+                fs.Write(idat, 0, idat.Length);
+                fs.Write(rest, 0, rest.Length);
+            }
+            count++;
+        }
+        Console.WriteLine("poses rebuilt: " + count);
+        return count == 46 ? 0 : 1;
+    }
+
+    private static readonly Dictionary<string, byte[]> Data = new Dictionary<string, byte[]>();
+
+    private static string Section(string json, string key)
+    {
+        int i = json.IndexOf(key, StringComparison.Ordinal);
+        if (i < 0) return "";
+        int start = json.IndexOf('{', i);
+        int depth = 0;
+        for (int j = start; j < json.Length; j++)
+        {
+            if (json[j] == '{') depth++;
+            else if (json[j] == '}' && --depth == 0) return json.Substring(start, j - start + 1);
+        }
+        return "";
+    }
+}
