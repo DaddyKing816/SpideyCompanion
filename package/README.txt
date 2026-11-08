@@ -1,8 +1,8 @@
-SPIDEY COMPANION v1.3.0 - media helper for the Spider-Man live wallpaper,
+SPIDEY COMPANION v1.3.1 - media helper for the Spider-Man live wallpaper,
 now with a desktop buddy
 ========================================================================
 
-The program file is named with its version - SpideyCompanion-v1.3.0.exe -
+The program file is named with its version - SpideyCompanion-v1.3.1.exe -
 so a new release never gets confused with an older copy on the same PC.
 
 WHAT IS THIS?
@@ -16,7 +16,7 @@ the same one the Windows volume overlay controls. That means it works
 with Spotify, YouTube in a browser, Windows Media Player, and any
 other app that shows up in the Windows media overlay.
 
-NEW IN v1.3.0 - THE BUDDY
+NEW IN v1.3.1 - THE BUDDY
 A chibi Spider-Man now lives on your desktop: the 46 poses of a
 "Shimeji" desktop-pet pack.
 He walks along the bottom of your screen (on top of the taskbar),
@@ -111,8 +111,8 @@ SOURCE CODE / TRUST
   Framework 4.8 program (built into every Windows 10/11 PC, so there
   is nothing else to install). Rebuild it yourself with the free
   .NET SDK:  dotnet build -c Release
-  SHA-256 of the included SpideyCompanion-v1.3.0.exe:
-  fa4c2c27c3974071c5403ef9d6bf6e0be98a4ab1e44d4bb069aa96ed7bf93979
+  SHA-256 of the included SpideyCompanion-v1.3.1.exe:
+  28abb3bc54c496570390ca42cae2b868b92c32d09883314c6e5c1a6a164bd700
 
 CREDITS
   The buddy's poses are the 46 frames of a "Shimeji" Spider-Man
