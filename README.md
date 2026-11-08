@@ -1,1 +1,47 @@
-IyBTcGlkZXkgQ29tcGFuaW9uCgpBIHRpbnkgV2luZG93cyBoZWxwZXIgYXBwIHRoYXQgYWRkcyBtZWRpYSBjb250cm9scyBhbmQgaGFyZHdhcmUgdGVtcHMgcGx1cyBhIGRlc2t0b3AgYnVkZHkgdG8gV2FsbHBhcGVyIEVuZ2luZSB3ZWIgd2FsbHBhcGVycy4KCldlYiB3YWxscGFwZXJzIGNhbid0IGNvbnRyb2wgbWVkaWEgcGxheWJhY2sgYnkgdGhlbXNlbHZlcywgc28gU3BpZGV5IENvbXBhbmlvbiBydW5zIG9uIGAxMjcuMC4wLjE6ODQ3MWAgd2l0aCBhIHRyYXkgaWNvbiAoc2luY2UgdGhlIGJ1ZGR5IHJlbGVhc2UpIG9uIGAxMjcuMC4wLjE6ODQ3MWAgYW5kIHByb3ZpZGVzIHdvcmtpbmcgKipwbGF5L3BhdXNlLCBuZXh0L3ByZXZpb3VzIGFuZCBzZWVrKiogb3ZlciBhIGxvY2FsIEhUVFAgZW5kcG9pbnQuIEl0IGFsc28gcGFzc2VzICoqQ1BVL0dQVSB0ZW1wZXJhdHVyZXMqKiB0aHJvdWdoIGZyb20gTGlicmVIYXJkd2FyZU1vbml0b3IuCgojIyBEb3dubG9hZAoKRnJvbSB2MS4zLjAgdGhlIGJ1ZGR5IGJ1aWxkIHNoaXBzIGFzIE9ORSBpbnN0YWxsZXIgZmlsZToKKipTcGlkZXlDb21wYW5pb24tU2V0dXAtdjEuMy4wLmV4ZSoqIC0gZ3JhYiBpdCBmcm9tIHRoaXMgcmVwbydzCkFjdGlvbnMgdGFiICh0aGUgIkJ1aWxkIGluc3RhbGxlciIgd29ya2Zsb3cgYXR0YWNoZXMgaXQgdG8gZXZlcnkKcnVuKSBvciBmcm9tIFJlbGVhc2VzIHdoZW4gb25lIGlzIHB1Ymxpc2hlZC4gUnVuIGl0OiBpdCBpbnN0YWxscwpwZXItdXNlciwgbm8gYWRtaW4sIGFuZCBjYW4gYmUgdW5pbnN0YWxsZWQgZnJvbSBXaW5kb3dzIFNldHRpbmdzCmxpa2UgYW55IGFwcC4KCk5ldyBpbiB0aGlzIGJ1aWxkOiBhIGNoaWJpIFNwaWRlci1NYW4gYnVkZHkgKDQ2IFNoaW1lamkgcG9zZXMpCndobyBsaXZlcyBvbiB5b3VyIGRlc2t0b3AgLSBoZSB3YWxrcyBhbG9uZyB0aGUgdGFza2Jhciwgc2l0cywKbGllcyBkb3duLCB3ZWItc3dpbmcganVtcHMsIGNsaW1icyB5b3VyIHNjcmVlbiBlZGdlcywgYW5kIGNhbiBiZQpkcmFnZ2VkIGFuZCBkcm9wcGVkLiBSaWdodC1jbGljayBoaXMgdHJheSBpY29uIHRvIGNvbnRyb2wgaGltLgoKIyMgSW5zdGFsbAoKMS4gVW56aXAgYFNwaWRleUNvbXBhbmlvbi12MS4yLjEuemlwYAoyLiBSdW4gYEluc3RhbGwtU3BpZGV5Q29tcGFuaW9uLmJhdGAKMy4gU3RhcnQgU3BpZGV5IENvbXBhbmlvbiDigJQgaXQgc2l0cyBpbiB0aGUgYmFja2dyb3VuZCwgbm8gd2luZG93CgpXaW5kb3dzIFNtYXJ0U2NyZWVuIG1heSB3YXJuIGJlY2F1c2UgdGhlIGFwcCBpcyB1bnNpZ25lZDogY2hvb3NlICoqTW9yZSBpbmZvIOKGkiBSdW4gYW55d2F5KiouCgojIyBSZXF1aXJlbWVudHMKCi0gV2luZG93cyAxMC8xMSB3aXRoIC5ORVQgRnJhbWV3b3JrIDQuOCAoYnVpbHQgaW50byBXaW5kb3dzKQotIEZvciB0ZW1wZXJhdHVyZXM6IExpYnJlSGFyZHdhcmVNb25pdG9yIHJ1bm5pbmcgd2l0aCBpdHMgUmVtb3RlIFdlYiBTZXJ2ZXIgZW5hYmxlZCBvbiBwb3J0IDgwODUKLSBXaXRob3V0IHRoaXMgYXBwLCBhIHdhbGxwYXBlcidzIG1lZGlhIGRpc3BsYXkgc3RpbGwgd29ya3Mg4oCUIGl0IGp1c3QgY2FuJ3QgYmUgY29udHJvbGxlZAoKIyMgSG93IGl0IHdvcmtzCgpTcGlkZXkgQ29tcGFuaW9uIHRhbGtzIHRvIHRoZSBXaW5kb3dzIG1lZGlhIHNlc3Npb24gKHRoZSBzYW1lIHN5c3RlbSBTcG90aWZ5LCBicm93c2VycyBhbmQgbWVkaWEgcGxheWVycyByZXBvcnQgdG8pLCBzbyBpdCBjb250cm9scyB3aGF0ZXZlciBpcyBhY3R1YWxseSBwbGF5aW5nLiBJdCBvbmx5IGxpc3RlbnMgb24geW91ciBvd24gbWFjaGluZSAoMTI3LjAuMC4xKSDigJQgbm90aGluZyBsZWF2ZXMgeW91ciBQQy4KCkl0IGNhbiBhbHNvIHVwZGF0ZSBpdHNlbGY6IGlmIGFuIGB1cGRhdGUtZmVlZC50eHRgIG5leHQgdG8gdGhlIGFwcCBwb2ludHMgYXQgYSB2ZXJzaW9uIGZpbGUsIGl0IGNoZWNrcyBvbiBzdGFydHVwIGFuZCBldmVyeSAxMiBob3VycywgdmVyaWZpZXMgdGhlIGRvd25sb2FkJ3MgU0hBLTI1NiBoYXNoLCBhbmQgc3dhcHMgaXRzZWxmIGluIHBsYWNlLgoKIyMgU291cmNlCgpgUHJvZ3JhbS5jc2AgaW4gdGhlIFJlbGVhc2VzIHppcCBpcyB0aGUgZnVsbCBzb3VyY2Ugb2YgdGhlIHNoaXBwZWQgYnVpbGQuCgotLS0KCipVbm9mZmljaWFsIGZhbiBwcm9qZWN0LiBOb3QgYWZmaWxpYXRlZCB3aXRoIE1hcnZlbCwgSW5zb21uaWFjIEdhbWVzIG9yIFNvbnkuKgo=
+# Spidey Companion
+
+A tiny Windows helper app that adds media controls and hardware temps plus a desktop buddy to Wallpaper Engine web wallpapers.
+
+Web wallpapers can't control media playback by themselves, so Spidey Companion runs on `127.0.0.1:8471` with a tray icon (since the buddy release) on `127.0.0.1:8471` and provides working **play/pause, next/previous and seek** over a local HTTP endpoint. It also passes **CPU/GPU temperatures** through from LibreHardwareMonitor.
+
+## Download
+
+From v1.3.0 the buddy build ships as ONE installer file:
+**SpideyCompanion-Setup-v1.3.0.exe** - grab it from this repo's
+Actions tab (the "Build installer" workflow attaches it to every
+run) or from Releases when one is published. Run it: it installs
+per-user, no admin, and can be uninstalled from Windows Settings
+like any app.
+
+New in this build: a chibi Spider-Man buddy (46 Shimeji poses)
+who lives on your desktop - he walks along the taskbar, sits,
+lies down, web-swing jumps, climbs your screen edges, and can be
+dragged and dropped. Right-click his tray icon to control him.
+
+## Install
+
+1. Unzip `SpideyCompanion-v1.2.1.zip`
+2. Run `Install-SpideyCompanion.bat`
+3. Start Spidey Companion — it sits in the background, no window
+
+Windows SmartScreen may warn because the app is unsigned: choose **More info → Run anyway**.
+
+## Requirements
+
+- Windows 10/11 with .NET Framework 4.8 (built into Windows)
+- For temperatures: LibreHardwareMonitor running with its Remote Web Server enabled on port 8085
+- Without this app, a wallpaper's media display still works — it just can't be controlled
+
+## How it works
+
+Spidey Companion talks to the Windows media session (the same system Spotify, browsers and media players report to), so it controls whatever is actually playing. It only listens on your own machine (127.0.0.1) — nothing leaves your PC.
+
+It can also update itself: if an `update-feed.txt` next to the app points at a version file, it checks on startup and every 12 hours, verifies the download's SHA-256 hash, and swaps itself in place.
+
+## Source
+
+`Program.cs` in the Releases zip is the full source of the shipped build.
+
+---
+
+*Unofficial fan project. Not affiliated with Marvel, Insomniac Games or Sony.*
