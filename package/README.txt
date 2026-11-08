@@ -1,1 +1,134 @@
-U1BJREVZIENPTVBBTklPTiB2MS4zLjAgLSBtZWRpYSBoZWxwZXIgZm9yIHRoZSBTcGlkZXItTWFuIGxpdmUgd2FsbHBhcGVyLApub3cgd2l0aCBhIGRlc2t0b3AgYnVkZHkKPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09CgpUaGUgcHJvZ3JhbSBmaWxlIGlzIG5hbWVkIHdpdGggaXRzIHZlcnNpb24gLSBTcGlkZXlDb21wYW5pb24tdjEuMy4wLmV4ZSAtCnNvIGEgbmV3IHJlbGVhc2UgbmV2ZXIgZ2V0cyBjb25mdXNlZCB3aXRoIGFuIG9sZGVyIGNvcHkgb24gdGhlIHNhbWUgUEMuCgpXSEFUIElTIFRISVM/CldhbGxwYXBlciBFbmdpbmUgd2FsbHBhcGVycyBhcmUgYWxsb3dlZCB0byBSRUFEIHdoYXQgaXMgcGxheWluZyBvbiB5b3VyClBDICh0aHJvdWdoIHRoZSBXaW5kb3dzIG1lZGlhIHNlc3Npb24pIGJ1dCBhcmUgTk9UIGFsbG93ZWQgdG8gY29udHJvbAppdCAtIFdhbGxwYXBlciBFbmdpbmUgZ2l2ZXMgdGhlbSBubyBwbGF5L3BhdXNlL25leHQvc2VlayBmdW5jdGlvbnMgYXQKYWxsLiBTcGlkZXkgQ29tcGFuaW9uIGlzIHRoZSBicmlkZ2U6IHRoZSB3YWxscGFwZXIncyBtZWRpYSBkZWNrIHNlbmRzIGEKdGlueSByZXF1ZXN0IHRvIHRoaXMgcHJvZ3JhbSBhdCAxMjcuMC4wLjE6ODQ3MSAoeW91ciBvd24gUEMgb25seSksIGFuZAp0aGlzIHByb2dyYW0gcHJlc3NlcyB0aGUgYnV0dG9ucyBvbiB0aGUgcmVhbCBXaW5kb3dzIG1lZGlhIHNlc3Npb24gLQp0aGUgc2FtZSBvbmUgdGhlIFdpbmRvd3Mgdm9sdW1lIG92ZXJsYXkgY29udHJvbHMuIFRoYXQgbWVhbnMgaXQgd29ya3MKd2l0aCBTcG90aWZ5LCBZb3VUdWJlIGluIGEgYnJvd3NlciwgV2luZG93cyBNZWRpYSBQbGF5ZXIsIGFuZCBhbnkKb3RoZXIgYXBwIHRoYXQgc2hvd3MgdXAgaW4gdGhlIFdpbmRvd3MgbWVkaWEgb3ZlcmxheS4KCk5FVyBJTiB2MS4zLjAgLSBUSEUgQlVERFkKQSBjaGliaSBTcGlkZXItTWFuIG5vdyBsaXZlcyBvbiB5b3VyIGRlc2t0b3A6IHRoZSA0NiBwb3NlcyBvZiBhCiJTaGltZWppIiBkZXNrdG9wLXBldCBwYWNrLgpIZSB3YWxrcyBhbG9uZyB0aGUgYm90dG9tIG9mIHlvdXIgc2NyZWVuIChvbiB0b3Agb2YgdGhlIHRhc2tiYXIpLApwYXVzZXMgKHNvbWV0aW1lcyBzaXR0aW5nIGRvd24sIGRhbmdsaW5nIGhpcyBsZWdzLCBvciBseWluZyBmbGF0KSwKZG9lcyB3ZWItc3dpbmcganVtcHMsIGFuZCB3aGVuIGhlIHJlYWNoZXMgYSBzY3JlZW4gZWRnZSBoZSBzb21ldGltZXMKQ0xJTUJTIHRoZSB3YWxsLCBoYW5ncyBhdCB0aGUgdG9wIGZvciBhIG1vbWVudCwgdGhlbiBkcm9wcyBiYWNrIGRvd24uCkhlIGhpZGVzIGhpbXNlbGYgYXV0b21hdGljYWxseSB3aGlsZSBhIGZ1bGxzY3JlZW4gYXBwIChhIGdhbWUsIGEKdmlkZW8pIGlzIGluIGZyb250IC0gaGUgbmV2ZXIgZ2V0cyBpbiB0aGUgd2F5LgoKICAqIERyYWcgaGltIGFueXdoZXJlIHdpdGggdGhlIG1vdXNlOiBoZSBsb29rcyBzdXJwcmlzZWQsIHRoZW4gc2NhcmVkCiAgICBhcyBoZSBmYWxscywgYm91bmNlcywgYW5kIGxhbmRzLgogICogQ2xpY2sgKHBva2UpIGhpbTogaGUgcmVhY3RzIHdpdGggYW4gZW1vdGlvbi4KICAqIENsaWNrcyBwYXNzIHRocm91Z2ggaGlzIHRyYW5zcGFyZW50IHBpeGVscyAtIG9ubHkgaGlzIGJvZHkgaXMKICAgIGNsaWNrYWJsZSwgdGhlIHJlc3Qgb2YgeW91ciBkZXNrdG9wIHdvcmtzIG5vcm1hbGx5IGFyb3VuZCBoaW0uCiAgKiBSaWdodC1jbGljayBoaXMgdHJheSBpY29uIHRvOiBzaG93L2hpZGUgaGltLCBzZXQgaGlzIHNpemUKICAgIChDb21wYWN0IDk2IHB4IC8gTmF0aXZlIDEyOCBweCAvIExhcmdlIDE2MCBweCksIHBhY2UgKENoaWxsIC8gTm9ybWFsIC8KICAgIFppcHB5KSwgYW5kIHdoaWNoIGRpc3BsYXkgaGUgbGl2ZXMgb247IG1ha2UgaGltIGp1bXAsIGVtb3RlIG9yCiAgICB3YWxrIG9uIGRlbWFuZDsgb3IgcXVpdCB0aGUgd2hvbGUgY29tcGFuaW9uLgogICogSGlzIHByZWZlcmVuY2VzIGFyZSBzYXZlZCBpbiAlQVBQREFUQSVcU3BpZGV5Q29tcGFuaW9uXHNldHRpbmdzLnR4dAogICAgLSB0aGF0IHNtYWxsIGZpbGUgaXMgdGhlIG9ubHkgdGhpbmcgdGhlIGNvbXBhbmlvbiBzdG9yZXMuCgpXSEFUIElUIERPRVMgLSBDT01QTEVURUxZOgogICogVGhlIGJ1ZGR5IGFib3ZlLCBwbHVzIGEgdHJheSBpY29uIHRvIGNvbnRyb2wgaGltLgogICogTGlzdGVucyBvbiAxMjcuMC4wLjEgcG9ydCA4NDcxLiBOb3RoaW5nIG91dHNpZGUgeW91ciBQQyBjYW4gcmVhY2ggaXQuCiAgKiBHRVQgL3BsYXkgICAgICAgIC0+IHBsYXkgb3IgcGF1c2Ugd2hhdGV2ZXIgaXMgcGxheWluZwogICogR0VUIC9uZXh0ICAgICAgICAtPiBuZXh0IHRyYWNrIC8gdmlkZW8KICAqIEdFVCAvcHJldiAgICAgICAgLT4gcHJldmlvdXMgdHJhY2sgLyB2aWRlbwogICogR0VUIC9zZWVrP3Bvcz1OICAtPiBqdW1wIHRvIE4gc2Vjb25kcyBpbiB0aGUgY3VycmVudCB0cmFjayAvIHZpZGVvCiAgKiBHRVQgL3N0YXR1cyAgICAgIC0+IGEgcGxhaW4tdGV4dCByZXBvcnQgdGhhdCBzdGFydHMgd2l0aCB0aGUgZXhhY3QKICAgICAgICAgICAgICAgICAgICAgICAgdmVyc2lvbiBydW5uaW5nLCBwbHVzIHRoZSBtZWRpYSBzZXNzaW9uIGl0IGNhbgogICAgICAgICAgICAgICAgICAgICAgICBzZWUsIHdoaWNoIGNvbnRyb2xzIGFyZSBhdmFpbGFibGUsIGFuZCB0aGUKICAgICAgICAgICAgICAgICAgICAgICAgdXBkYXRlIHN0YXRlCiAgKiBHRVQgL3VwZGF0ZSAgICAgIC0+IGNoZWNrcyBmb3IgYW4gdXBkYXRlIHJpZ2h0IG5vdwogICogR0VUIC90ZW1wcyAgICAgICAtPiBwYXNzZXMgdGhyb3VnaCBMaWJyZUhhcmR3YXJlTW9uaXRvcidzIGRhdGEKICAgICAgICAgICAgICAgICAgICAgICAgZm9yIHRoZSB3YWxscGFwZXIncyB0ZW1wZXJhdHVyZSByZWFkb3V0cwogICogR0VUIC9oZWFsdGggICAgICAtPiBhbnN3ZXJzICJvayIKICAqIEFueXRoaW5nIGVsc2UgaXMgaWdub3JlZC4KCkFVVE9NQVRJQyBVUERBVEVTCiAgVGhlIGNvbXBhbmlvbiBjYW4gdXBkYXRlIElUU0VMRiAtIG5vIHVuaW5zdGFsbC9yZWluc3RhbGwgZGFuY2UuCiAgTmV4dCB0byB0aGUgZXhlIGlzIHVwZGF0ZS1mZWVkLnR4dC4gSWYgaXQgY29udGFpbnMgYSBsaW5lCiAgICAgIGZlZWQ9PHVybCBvZiBhIHNtYWxsIHZlcnNpb24gZmlsZT4KICB0aGUgY29tcGFuaW9uIGNoZWNrcyB0aGF0IGZpbGUgb24gc3RhcnR1cCBhbmQgZXZlcnkgMTIgaG91cnMuIFRoZQogIHZlcnNpb24gZmlsZSBpcyBwbGFpbiB0ZXh0OgogICAgICB2ZXJzaW9uPTEuNC4wCiAgICAgIHVybD08ZGlyZWN0IGxpbmsgdG8gdGhlIG5ldyBleGU+CiAgICAgIHNoYTI1Nj08c2hhLTI1NiBvZiB0aGUgZXhlPiAgICAgKG9wdGlvbmFsLCBhbHdheXMgdmVyaWZpZWQKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgd2hlbiBwcmVzZW50IC0gYSBtaXNtYXRjaCBpcwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZWplY3RlZCBhbmQgbm90aGluZyBpbnN0YWxscykKICBBIG5ld2VyIHZlcnNpb24gZG93bmxvYWRzIHVuZGVyIGl0cyBvd24gdmVyc2lvbmVkIGZpbGUgbmFtZSwKICB2ZXJpZmllcywgcmVwbGFjZXMgdGhlIG9sZCBjb3B5LCBhbmQgcmVzdGFydHMgaXRzZWxmLiBJZiBmZWVkPSBpcwogIGJsYW5rICh0aGUgZGVmYXVsdCksIGl0IG5ldmVyIGNoZWNrcyBhbmQgbmV2ZXIgZG93bmxvYWRzIGFueXRoaW5nLgoKU0VUVVAgTk9URVMgVEhBVCBNQVRURVIKICAqIFNwb3RpZnk6IHR1cm4gT04gU3BvdGlmeSBTZXR0aW5ncyAtPiBEaXNwbGF5IC0+ICJTaG93IGRlc2t0b3AKICAgIG92ZXJsYXkgd2hlbiB1c2luZyBtZWRpYSBrZXlzIiAtIHdpdGhvdXQgaXQsIFNwb3RpZnkgbWF5IG5vdAogICAgcHVibGlzaCBhIG1lZGlhIHNlc3Npb24gZm9yIGFueXRoaW5nIHRvIGNvbnRyb2wuCiAgKiBEZXNrdG9wIFZMQyBkb2VzIG5vdCBwdWJsaXNoIGEgV2luZG93cyBtZWRpYSBzZXNzaW9uIGJ5IGl0c2VsZgogICAgKHRoZSBTdG9yZSB2ZXJzaW9uIG9mIFZMQyBkb2VzKS4KCklOU1RBTEwKICBQcmVmZXJyZWQ6IHJ1biB0aGUgU3BpZGV5IENvbXBhbmlvbiBpbnN0YWxsZXIgKFNldHVwLmV4ZSkgZnJvbSB0aGUKICBHaXRIdWIgcmVsZWFzZSAtIGl0IGluc3RhbGxzIHBlci11c2VyIChubyBhZG1pbiksIGFkZHMgYSBTdGFydCBNZW51CiAgZW50cnksIHN0YXJ0cyB3aXRoIFdpbmRvd3MsIGFuZCBjYW4gYmUgcmVtb3ZlZCBmcm9tIFdpbmRvd3MKICBTZXR0aW5ncyBsaWtlIGFueSBhcHAuCiAgTWFudWFsIGZhbGxiYWNrOiBydW4gSW5zdGFsbC1TcGlkZXlDb21wYW5pb24uYmF0IGZyb20gdGhpcyBwYWNrYWdlLgogIEl0IHN0b3BzIGFueSBvbGRlciBjb3BpZXMgKHVuZGVyIGFueSBTcGlkZXlDb21wYW5pb24gZmlsZSBuYW1lLAogIHBsdXMgdGhlIG9sZCAiU3BpZGVyQ29tcGFuaW9uIiBuYW1lIGZyb20gZWFybHkgYnVpbGRzKSwgcmVtb3ZlcwogIHRoZW0sIGNvcGllcyB0aGlzIHZlcnNpb24gaW4sIHNldHMgaXQgdG8gc3RhcnQgd2l0aCBXaW5kb3dzLCBhbmQKICBzdGFydHMgaXQgcmlnaHQgYXdheS4gWW91ciBleGlzdGluZyB1cGRhdGUtZmVlZC50eHQgaXMgbmV2ZXIKICBvdmVyd3JpdHRlbi4gV2luZG93cyBtYXkgc2hvdyBhIGJsdWUgU21hcnRTY3JlZW4gd2FybmluZyBiZWNhdXNlCiAgdGhlIHByb2dyYW0gaXMgbm90IHNpZ25lZCB3aXRoIGEgcGFpZCBjZXJ0aWZpY2F0ZSAtIGNsaWNrICJNb3JlCiAgaW5mbyIgdGhlbiAiUnVuIGFueXdheSIuIFRoZSBmdWxsIHNvdXJjZSBjb2RlIGlzIGluY2x1ZGVkIHNvIHlvdQogIChvciBhbnlvbmUpIGNhbiBjaGVjayBleGFjdGx5IHdoYXQgaXQgZG9lcywgYW5kIGV2ZW4gcmVidWlsZCBpdC4KCkNIRUNLIElUIElTIFJVTk5JTkcKICBMb29rIGZvciB0aGUgYnVkZHkgb24geW91ciBkZXNrdG9wIGFuZCB0aGUgaWNvbiBpbiB0aGUgc3lzdGVtIHRyYXkuCiAgT3BlbiBodHRwOi8vMTI3LjAuMC4xOjg0NzEvaGVhbHRoIGluIHlvdXIgYnJvd3NlciAtIGl0IHNob3VsZCBzaG93CiAgIm9rIi4gT3BlbiBodHRwOi8vMTI3LjAuMC4xOjg0NzEvc3RhdHVzIHdoaWxlIHNvbWV0aGluZyBpcyBwbGF5aW5nCiAgdG8gc2VlIHRoZSB2ZXJzaW9uLCBzZXNzaW9uIGFuZCBjb250cm9scyBpdCBoYXMgZm91bmQuCgpSRU1PVkUgSVQKICBJZiB5b3UgdXNlZCB0aGUgaW5zdGFsbGVyOiBXaW5kb3dzIFNldHRpbmdzIC0+IEFwcHMgLT4gU3BpZGV5CiAgQ29tcGFuaW9uIC0+IFVuaW5zdGFsbC4gSWYgeW91IHVzZWQgdGhlIC5iYXQ6IHJ1bgogIFVuaW5zdGFsbC1TcGlkZXlDb21wYW5pb24uYmF0LiBIaXMgc2V0dGluZ3MgZmlsZSBjYW4gYmUgZGVsZXRlZCBhdAogICVBUFBEQVRBJVxTcGlkZXlDb21wYW5pb24uCgpTT1VSQ0UgQ09ERSAvIFRSVVNUCiAgUHJvZ3JhbS5jcyAoaGVscGVyICsgdXBkYXRlcikgYW5kIEJ1ZGR5LmNzICh0aGUgYnVkZHkgZW5naW5lKQogIGluIHRoaXMgZm9sZGVyIGFyZSB0aGUgQ09NUExFVEUgc291cmNlIGNvZGU7IHRoZSBidWRkeSdzIDQ2IHBvc2UKICBpbWFnZXMgYXJlIGVtYmVkZGVkIGluIHRoZSBleGUgYXMgcmVzb3VyY2VzLiBJdCBpcyBhIC5ORVQKICBGcmFtZXdvcmsgNC44IHByb2dyYW0gKGJ1aWx0IGludG8gZXZlcnkgV2luZG93cyAxMC8xMSBQQywgc28gdGhlcmUKICBpcyBub3RoaW5nIGVsc2UgdG8gaW5zdGFsbCkuIFJlYnVpbGQgaXQgeW91cnNlbGYgd2l0aCB0aGUgZnJlZQogIC5ORVQgU0RLOiAgZG90bmV0IGJ1aWxkIC1jIFJlbGVhc2UKICBTSEEtMjU2IG9mIHRoZSBpbmNsdWRlZCBTcGlkZXlDb21wYW5pb24tdjEuMy4wLmV4ZToKICA1ZGNlYTI2ODg4NTNkY2UyOTUxMmU4NmVhMGQxOTYzNGFjZWVmYjkzNDU2MWVhZjlhN2ViYjVhMzUxYmNmZGFkCgpDUkVESVRTCiAgVGhlIGJ1ZGR5J3MgcG9zZXMgYXJlIHRoZSA0NiBmcmFtZXMgb2YgYSAiU2hpbWVqaSIgU3BpZGVyLU1hbgogIGRlc2t0b3AtcGV0IHBhY2sgKHNoaW1lMS5wbmcgLSBzaGltZTQ2LnBuZykuCiAgU3ByaXRlIGFydCBieSBoYXlkZW50aGVhcnRpc3QgKFJlZGRpdCkgLSB0aGFuayB5b3UhCiAgVGhlIHBvc2UtdG8tYWN0aW9uIG1hcHBpbmcgZm9sbG93cyB0aGUgcGFjaydzIG93biBjb25maWd1cmF0aW9uCiAgZmlsZXMuIFNoaW1lamkgcGV0cyBhcmUgYSBsb25nLXJ1bm5pbmcgZmFuIHRyYWRpdGlvbiAodGhlCiAgU2hpbWVqaS1lZSBwcm9ncmFtIGl0c2VsZiBpcyBieSBZdWtpIFlhbWFkYSAvIEdyb3VwIEZpbml0eSkuCiAgVGhlIHBvc2VzIGFyZSB1c2VkIGhlcmUgYXMgZm91bmQsIHVubW9kaWZpZWQuCgogIEFuIGVhcmxpZXIgdW5yZWxlYXNlZCBidWlsZCB1c2VkIHBpeGVsIGRhdGEgZnJvbSAiQnVkZHkiIGJ5IFJhaGFtYW4gQmluIFVqaXQKICAoTUlUIExpY2Vuc2UsIENvcHlyaWdodCAoYykgMjAyNiBSYWhhbWFuIEJpbiBVaml0LAogIGh0dHBzOi8vZ2l0aHViLmNvbS9yYWhhbWFuYmludWppdC9idWRkeS1hcHApOyB0aGF0IGFydCB3YXMKICBkcm9wcGVkIGJlZm9yZSByZWxlYXNlIGF0IHRoZSBwcm9qZWN0IG93bmVyJ3MgcmVxdWVzdCwgYW5kIHRoZSB0aGFua3MKICBzdGFuZHMgLSBoaXMgYmVoYXZpb3VyIG1vZGVsIHN0aWxsIGluZm9ybXMgdGhlIGJ1ZGR5J3MgdGltaW5nLgoKICBTcGlkZXItTWFuIGlzIGEgdHJhZGVtYXJrL2NoYXJhY3RlciBvZiBNYXJ2ZWw7IHRoaXMgcHJvamVjdCBpcyBhCiAgZnJlZSwgbm9uLWNvbW1lcmNpYWwgZmFuIHByb2plY3QgYW5kIGlzIG5vdCBhZmZpbGlhdGVkIHdpdGggb3IKICBlbmRvcnNlZCBieSBNYXJ2ZWwuCg==
+SPIDEY COMPANION v1.3.0 - media helper for the Spider-Man live wallpaper,
+now with a desktop buddy
+========================================================================
+
+The program file is named with its version - SpideyCompanion-v1.3.0.exe -
+so a new release never gets confused with an older copy on the same PC.
+
+WHAT IS THIS?
+Wallpaper Engine wallpapers are allowed to READ what is playing on your
+PC (through the Windows media session) but are NOT allowed to control
+it - Wallpaper Engine gives them no play/pause/next/seek functions at
+all. Spidey Companion is the bridge: the wallpaper's media deck sends a
+tiny request to this program at 127.0.0.1:8471 (your own PC only), and
+this program presses the buttons on the real Windows media session -
+the same one the Windows volume overlay controls. That means it works
+with Spotify, YouTube in a browser, Windows Media Player, and any
+other app that shows up in the Windows media overlay.
+
+NEW IN v1.3.0 - THE BUDDY
+A chibi Spider-Man now lives on your desktop: the 46 poses of a
+"Shimeji" desktop-pet pack.
+He walks along the bottom of your screen (on top of the taskbar),
+pauses (sometimes sitting down, dangling his legs, or lying flat),
+does web-swing jumps, and when he reaches a screen edge he sometimes
+CLIMBS the wall, hangs at the top for a moment, then drops back down.
+He hides himself automatically while a fullscreen app (a game, a
+video) is in front - he never gets in the way.
+
+  * Drag him anywhere with the mouse: he looks surprised, then scared
+    as he falls, bounces, and lands.
+  * Click (poke) him: he reacts with an emotion.
+  * Clicks pass through his transparent pixels - only his body is
+    clickable, the rest of your desktop works normally around him.
+  * Right-click his tray icon to: show/hide him, set his size
+    (Compact 96 px / Native 128 px / Large 160 px), pace (Chill / Normal /
+    Zippy), and which display he lives on; make him jump, emote or
+    walk on demand; or quit the whole companion.
+  * His preferences are saved in %APPDATA%\SpideyCompanion\settings.txt
+    - that small file is the only thing the companion stores.
+
+WHAT IT DOES - COMPLETELY:
+  * The buddy above, plus a tray icon to control him.
+  * Listens on 127.0.0.1 port 8471. Nothing outside your PC can reach it.
+  * GET /play        -> play or pause whatever is playing
+  * GET /next        -> next track / video
+  * GET /prev        -> previous track / video
+  * GET /seek?pos=N  -> jump to N seconds in the current track / video
+  * GET /status      -> a plain-text report that starts with the exact
+                        version running, plus the media session it can
+                        see, which controls are available, and the
+                        update state
+  * GET /update      -> checks for an update right now
+  * GET /temps       -> passes through LibreHardwareMonitor's data
+                        for the wallpaper's temperature readouts
+  * GET /health      -> answers "ok"
+  * Anything else is ignored.
+
+AUTOMATIC UPDATES
+  The companion can update ITSELF - no uninstall/reinstall dance.
+  Next to the exe is update-feed.txt. If it contains a line
+      feed=<url of a small version file>
+  the companion checks that file on startup and every 12 hours. The
+  version file is plain text:
+      version=1.4.0
+      url=<direct link to the new exe>
+      sha256=<sha-256 of the exe>     (optional, always verified
+                                       when present - a mismatch is
+                                       rejected and nothing installs)
+  A newer version downloads under its own versioned file name,
+  verifies, replaces the old copy, and restarts itself. If feed= is
+  blank (the default), it never checks and never downloads anything.
+
+SETUP NOTES THAT MATTER
+  * Spotify: turn ON Spotify Settings -> Display -> "Show desktop
+    overlay when using media keys" - without it, Spotify may not
+    publish a media session for anything to control.
+  * Desktop VLC does not publish a Windows media session by itself
+    (the Store version of VLC does).
+
+INSTALL
+  Preferred: run the Spidey Companion installer (Setup.exe) from the
+  GitHub release - it installs per-user (no admin), adds a Start Menu
+  entry, starts with Windows, and can be removed from Windows
+  Settings like any app.
+  Manual fallback: run Install-SpideyCompanion.bat from this package.
+  It stops any older copies (under any SpideyCompanion file name,
+  plus the old "SpiderCompanion" name from early builds), removes
+  them, copies this version in, sets it to start with Windows, and
+  starts it right away. Your existing update-feed.txt is never
+  overwritten. Windows may show a blue SmartScreen warning because
+  the program is not signed with a paid certificate - click "More
+  info" then "Run anyway". The full source code is included so you
+  (or anyone) can check exactly what it does, and even rebuild it.
+
+CHECK IT IS RUNNING
+  Look for the buddy on your desktop and the icon in the system tray.
+  Open http://127.0.0.1:8471/health in your browser - it should show
+  "ok". Open http://127.0.0.1:8471/status while something is playing
+  to see the version, session and controls it has found.
+
+REMOVE IT
+  If you used the installer: Windows Settings -> Apps -> Spidey
+  Companion -> Uninstall. If you used the .bat: run
+  Uninstall-SpideyCompanion.bat. His settings file can be deleted at
+  %APPDATA%\SpideyCompanion.
+
+SOURCE CODE / TRUST
+  Program.cs (helper + updater) and Buddy.cs (the buddy engine)
+  in this folder are the COMPLETE source code; the buddy's 46 pose
+  images are embedded in the exe as resources. It is a .NET
+  Framework 4.8 program (built into every Windows 10/11 PC, so there
+  is nothing else to install). Rebuild it yourself with the free
+  .NET SDK:  dotnet build -c Release
+  SHA-256 of the included SpideyCompanion-v1.3.0.exe:
+  5dcea2688853dce29512e86ea0d19634aceefb934561eaf9a7ebb5a351bcfdad
+
+CREDITS
+  The buddy's poses are the 46 frames of a "Shimeji" Spider-Man
+  desktop-pet pack (shime1.png - shime46.png).
+  Sprite art by haydentheartist (Reddit) - thank you!
+  The pose-to-action mapping follows the pack's own configuration
+  files. Shimeji pets are a long-running fan tradition (the
+  Shimeji-ee program itself is by Yuki Yamada / Group Finity).
+  The poses are used here as found, unmodified.
+
+  An earlier unreleased build used pixel data from "Buddy" by Rahaman Bin Ujit
+  (MIT License, Copyright (c) 2026 Rahaman Bin Ujit,
+  https://github.com/rahamanbinujit/buddy-app); that art was
+  dropped before release at the project owner's request, and the thanks
+  stands - his behaviour model still informs the buddy's timing.
+
+  Spider-Man is a trademark/character of Marvel; this project is a
+  free, non-commercial fan project and is not affiliated with or
+  endorsed by Marvel.
