@@ -18,10 +18,10 @@ using Microsoft.Win32;
 
 internal static class SetupProgram
 {
-    private const string VersionExe = "SpideyCompanion-v1.3.0.exe";
+    private const string VersionExe = "SpideyCompanion-v1.3.1.exe";
     private const string AppId = "{0133FFD4-30BD-421B-BB17-87FA57E877C5}";
     private const string DisplayName = "Spidey Companion";
-    private const string Version = "1.3.0";
+    private const string Version = "1.3.1";
 
     private static string InstallDir
     {
@@ -294,8 +294,8 @@ internal static class SetupProgram
 
         if (!silent)
         {
-            MessageBox.Show("Spidey Companion 1.3.0 is installed.\n\nSpidey will start now - look for him at the " +
-                            "bottom of your screen, and his icon in the tray.",
+            MessageBox.Show("Spidey Companion 1.3.1 is installed and running.\n\nThe desktop buddy is OFF by default - " +
+                            "right-click the Spidey tray icon and tick 'Show buddy' to bring him out.",
                             "Spidey Companion Setup", MessageBoxButtons.OK, MessageBoxIcon.Information);
             Process.Start(Path.Combine(dir, VersionExe));
         }
