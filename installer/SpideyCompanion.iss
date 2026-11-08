@@ -1,1 +1,111 @@
-OyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09CjsgIFNwaWRleSBDb21wYW5pb24gLSBJbm5vIFNldHVwIGluc3RhbGxlciBzY3JpcHQgKHYxLjMuMCkKOwo7ICBQZXItdXNlciBpbnN0YWxsIChubyBhZG1pbik6ICAlTE9DQUxBUFBEQVRBJVxTcGlkZXlDb21wYW5pb24KOyAgLSBtYXRjaGVzIHRoZSBzZWxmLXVwZGF0ZXIsIHdoaWNoIHN3YXBzIHRoZSBleGUgaW4gdGhhdCBmb2xkZXIKOyAgLSB1bmluc3RhbGxhYmxlIGZyb20gV2luZG93cyBTZXR0aW5ncyA+IEFwcHMgbGlrZSBhIG5vcm1hbCBhcHAKOyAgLSBTdGFydCBNZW51IHNob3J0Y3V0ICsgc3RhcnQtd2l0aC1XaW5kb3dzIChvcHRpb25hbCB0YXNrLCBkZWZhdWx0IG9uKQo7CjsgIEhPVyBUTyBCVUlMRCBUSEUgSU5TVEFMTEVSCjsgIFRoaXMgc2NyaXB0IGlzIGNvbXBpbGVkIG9uIFdJTkRPV1MgKElubm8gU2V0dXAgaXMgV2luZG93cy1vbmx5KToKOyAgICAxLiBCdWlsZCB0aGUgYXBwOiAgIGRvdG5ldCBidWlsZCBzcmMgLWMgUmVsZWFzZSAtbyBkaXN0CjsgICAgICAgdGhlbiByZW5hbWUgdGhlIG91dHB1dHMgdG8gdGhlIHZlcnNpb25lZCBuYW1lcyB0aGlzIHNjcmlwdAo7ICAgICAgIGV4cGVjdHM6ICBTcGlkZXlDb21wYW5pb24tdjEuMy4wLmV4ZSAgKCsgdGhlIHNhbWUgZm9yIC5jb25maWcpCjsgICAgICAgKHRoaXMgc2NyaXB0IHJlYWRzIHRoZSBleGUgKyBjb25maWcgZnJvbSAuLlxkaXN0LCBkb2NzIGZyb20KOyAgICAgICAgLi5ccGFja2FnZSwgc291cmNlcyBmcm9tIC4uXHNyYywgcmVsYXRpdmUgdG8gaXRzIG93biBmb2xkZXI7CjsgICAgICAgIHRoZSBHaXRIdWIgQWN0aW9uIGRvZXMgdGhlIHJlbmFtZSBhdXRvbWF0aWNhbGx5KQo7ICAgIDIuIENvbXBpbGU6ICAgICAgICAgIkM6XFByb2dyYW0gRmlsZXMgKHg4NilcSW5ubyBTZXR1cCA2XElTQ0MuZXhlIiBpbnN0YWxsZXJcU3BpZGV5Q29tcGFuaW9uLmlzcwo7ICAgICAgIE91dHB1dDogaW5zdGFsbGVyXE91dHB1dFxTcGlkZXlDb21wYW5pb24tU2V0dXAtdjEuNC4wLmV4ZQo7ICBPUiBwdXNoIGEgdiogdGFnIC8gcnVuIHRoZSAiQnVpbGQgaW5zdGFsbGVyIiBHaXRIdWIgQWN0aW9uIGluIHRoaXMKOyAgcmVwbyAoLmdpdGh1Yi93b3JrZmxvd3MvYnVpbGQtaW5zdGFsbGVyLnltbCkgYW5kIGRvd25sb2FkIHRoZSByZXN1bHQuCjsKOyAgU21hcnRTY3JlZW4gbm90ZTogYW4gdW5zaWduZWQgaW5zdGFsbGVyIHN0aWxsIHNob3dzIHRoZSBXaW5kb3dzCjsgICJ1bmtub3duIHB1Ymxpc2hlciIgcHJvbXB0LiBPbmx5IGEgcGFpZCBjb2RlLXNpZ25pbmcgY2VydGlmaWNhdGUKOyAgcmVtb3ZlcyB0aGF0IC0gdGhlcmUgaXMgbm8gc2NyaXB0LXNpZGUgd29ya2Fyb3VuZC4KOyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09CgojZGVmaW5lIEFwcE5hbWUgIlNwaWRleSBDb21wYW5pb24iCiNkZWZpbmUgQXBwVmVyc2lvbiAiMS4zLjAiCiNkZWZpbmUgRXhlTmFtZSAiU3BpZGV5Q29tcGFuaW9uLXYxLjMuMC5leGUiCiNkZWZpbmUgU3RhZ2VEaXIgIi4uXGRpc3QiCiNkZWZpbmUgUGtnRGlyICIuLlxwYWNrYWdlIgojZGVmaW5lIFNyY0RpciAiLi5cc3JjIgoKW1NldHVwXQo7IEFwcElkIGlzIHRoaXMgcHJvZHVjdCdzIHBlcm1hbmVudCBpZGVudGl0eSAtIE5FVkVSIGNoYW5nZSBpdCwgb3IKOyB1cGdyYWRlcy91bmluc3RhbGxzIHdpbGwgc3RvcCBtYXRjaGluZyBlYXJsaWVyIGluc3RhbGxzLgpBcHBJZD17ezAxMzNGRkQ0LTMwQkQtNDIxQi1CQjE3LTg3RkE1N0U4NzdDNX0KQXBwTmFtZT17I0FwcE5hbWV9CkFwcFZlcnNpb249eyNBcHBWZXJzaW9ufQpBcHBQdWJsaXNoZXI9QmFpbGV5IFBvd2VsbApEZWZhdWx0RGlyTmFtZT17bG9jYWxhcHBkYXRhfVxTcGlkZXlDb21wYW5pb24KRGVmYXVsdEdyb3VwTmFtZT1TcGlkZXkgQ29tcGFuaW9uCkRpc2FibGVQcm9ncmFtR3JvdXBQYWdlPXllcwpQcml2aWxlZ2VzUmVxdWlyZWQ9bG93ZXN0Ck91dHB1dERpcj1PdXRwdXQKT3V0cHV0QmFzZUZpbGVuYW1lPVNwaWRleUNvbXBhbmlvbi1TZXR1cC12eyNBcHBWZXJzaW9ufQpVbmluc3RhbGxEaXNwbGF5SWNvbj17YXBwfVx7I0V4ZU5hbWV9CkNvbXByZXNzaW9uPWx6bWEyClNvbGlkQ29tcHJlc3Npb249eWVzCldpemFyZFN0eWxlPW1vZGVybgpDbG9zZUFwcGxpY2F0aW9ucz15ZXMKUmVzdGFydElmTmVlZGVkQnlSdW49bm8KCltUYXNrc10KTmFtZTogImF1dG9zdGFydCI7IERlc2NyaXB0aW9uOiAiU3RhcnQgU3BpZGV5IENvbXBhbmlvbiBhdXRvbWF0aWNhbGx5IHdpdGggV2luZG93cyI7IEdyb3VwRGVzY3JpcHRpb246ICJTdGFydHVwOiI7IEZsYWdzOiBjaGVja2Vkb25jZQoKW0luc3RhbGxEZWxldGVdCjsgQ2xlYXIgc3VwZXJzZWRlZCB2ZXJzaW9uZWQgZXhlcyBmcm9tIGVhcmxpZXIgaW5zdGFsbHMgKGJhdCBvciBzZXR1cCkKOyBzbyB0aGUgZm9sZGVyIGFsd2F5cyBob2xkcyBleGFjdGx5IG9uZSBjb21wYW5pb24gYnVpbGQuClR5cGU6IGZpbGVzOyBOYW1lOiAie2FwcH1cU3BpZGV5Q29tcGFuaW9uLXYqLmV4ZSIKVHlwZTogZmlsZXM7IE5hbWU6ICJ7YXBwfVxTcGlkZXlDb21wYW5pb24tdiouZXhlLmNvbmZpZyIKVHlwZTogZmlsZXM7IE5hbWU6ICJ7YXBwfVxTcGlkZXJDb21wYW5pb24uZXhlIgpUeXBlOiBmaWxlc2FuZG9yZGlyczsgTmFtZTogIntsb2NhbGFwcGRhdGF9XFNwaWRlckNvbXBhbmlvbiIKCltGaWxlc10KU291cmNlOiAieyNTdGFnZURpcn1ceyNFeGVOYW1lfSI7IERlc3REaXI6ICJ7YXBwfSI7IEZsYWdzOiBpZ25vcmV2ZXJzaW9uClNvdXJjZTogInsjU3RhZ2VEaXJ9XHsjRXhlTmFtZX0uY29uZmlnIjsgRGVzdERpcjogInthcHB9IjsgRmxhZ3M6IGlnbm9yZXZlcnNpb24KU291cmNlOiAieyNQa2dEaXJ9XFJFQURNRS50eHQiOyBEZXN0RGlyOiAie2FwcH0iOyBGbGFnczogaWdub3JldmVyc2lvbgpTb3VyY2U6ICJ7I1BrZ0Rpcn1cdXBkYXRlLWZlZWQudHh0IjsgRGVzdERpcjogInthcHB9IjsgRmxhZ3M6IG9ubHlpZmRvZXNudGV4aXN0IHVuaW5zbmV2ZXJ1bmluc3RhbGwKOyBGdWxsIHNvdXJjZSBzaGlwcyB3aXRoIHRoZSBhcHAsIGFzIHRoZSBSRUFETUUgcHJvbWlzZXMuClNvdXJjZTogInsjU3JjRGlyfVxQcm9ncmFtLmNzIjsgRGVzdERpcjogInthcHB9IjsgRmxhZ3M6IGlnbm9yZXZlcnNpb24KU291cmNlOiAieyNTcmNEaXJ9XEJ1ZGR5LmNzIjsgRGVzdERpcjogInthcHB9IjsgRmxhZ3M6IGlnbm9yZXZlcnNpb24KU291cmNlOiAieyNTcmNEaXJ9XAoKW0ljb25zXQpOYW1lOiAie2dyb3VwfVxTcGlkZXkgQ29tcGFuaW9uIjsgRmlsZW5hbWU6ICJ7YXBwfVx7I0V4ZU5hbWV9IgpOYW1lOiAie2dyb3VwfVxSZWFkIE1lIjsgRmlsZW5hbWU6ICJ7YXBwfVxSRUFETUUudHh0IgoKW1JlZ2lzdHJ5XQo7IFRoZSBzZWxmLXVwZGF0ZXIgcmVhZHMgdGhpcyBSdW4gdmFsdWUgYmFjayB0byBmaW5kIHRoZSBleGUgbmFtZSAtCjsga2VlcCB0aGUgdmFsdWUgbmFtZSBhbmQgcXVvdGVkLXBhdGggZm9ybWF0IGV4YWN0bHkgYXMgdGhleSBhcmUuClJvb3Q6IEhLQ1U7IFN1YmtleTogIlNvZnR3YXJlXE1pY3Jvc29mdFxXaW5kb3dzXEN1cnJlbnRWZXJzaW9uXFJ1biI7IFZhbHVlVHlwZTogc3RyaW5nOyBWYWx1ZU5hbWU6ICJTcGlkZXlDb21wYW5pb24iOyBWYWx1ZURhdGE6ICIiInthcHB9XHsjRXhlTmFtZX0iIiI7IEZsYWdzOiB1bmluc2RlbGV0ZXZhbHVlOyBUYXNrczogYXV0b3N0YXJ0CgpbUnVuXQpGaWxlbmFtZTogInthcHB9XHsjRXhlTmFtZX0iOyBEZXNjcmlwdGlvbjogIlN0YXJ0IFNwaWRleSBDb21wYW5pb24gbm93IjsgRmxhZ3M6IG5vd2FpdCBwb3N0aW5zdGFsbCBza2lwaWZzaWxlbnQKCltDb2RlXQp7IEJlbHQgYW5kIGJyYWNlcyBhbG9uZ3NpZGUgQ2xvc2VBcHBsaWNhdGlvbnM6IG1ha2Ugc3VyZSBubyBvbGRlcgogIGNvbXBhbmlvbiBidWlsZCBpcyBzdGlsbCBydW5uaW5nIGJlZm9yZSBmaWxlcyBhcmUgcmVwbGFjZWQsIGFuZAogIHN0b3AgdGhlIGFwcCBiZWZvcmUgdW5pbnN0YWxsIHJlbW92ZXMgaXRzIGZpbGVzLiB9CnByb2NlZHVyZSBTdG9wQ29tcGFuaW9uOwp2YXIKICBSZXN1bHRDb2RlOiBJbnRlZ2VyOwpiZWdpbgogIEV4ZWMoRXhwYW5kQ29uc3RhbnQoJ3tzeXN9XHRhc2traWxsLmV4ZScpLCAnL0lNICJTcGlkZXlDb21wYW5pb24qLmV4ZSIgL0YnLCAnJywKICAgICAgIFNXX0hJREUsIGV3V2FpdFVudGlsVGVybWluYXRlZCwgUmVzdWx0Q29kZSk7CiAgRXhlYyhFeHBhbmRDb25zdGFudCgne3N5c31cdGFza2tpbGwuZXhlJyksICcvSU0gU3BpZGVyQ29tcGFuaW9uLmV4ZSAvRicsICcnLAogICAgICAgU1dfSElERSwgZXdXYWl0VW50aWxUZXJtaW5hdGVkLCBSZXN1bHRDb2RlKTsKZW5kOwoKZnVuY3Rpb24gSW5pdGlhbGl6ZVNldHVwKCk6IEJvb2xlYW47CmJlZ2luCiAgU3RvcENvbXBhbmlvbjsKICBSZXN1bHQgOj0gVHJ1ZTsKZW5kOwoKZnVuY3Rpb24gSW5pdGlhbGl6ZVVuaW5zdGFsbCgpOiBCb29sZWFuOwpiZWdpbgogIFN0b3BDb21wYW5pb247CiAgUmVzdWx0IDo9IFRydWU7CmVuZDsK
+; ============================================================================
+;  Spidey Companion - Inno Setup installer script (v1.3.0)
+;
+;  Per-user install (no admin):  %LOCALAPPDATA%\SpideyCompanion
+;  - matches the self-updater, which swaps the exe in that folder
+;  - uninstallable from Windows Settings > Apps like a normal app
+;  - Start Menu shortcut + start-with-Windows (optional task, default on)
+;
+;  HOW TO BUILD THE INSTALLER
+;  This script is compiled on WINDOWS (Inno Setup is Windows-only):
+;    1. Build the app:   dotnet build src -c Release -o dist
+;       then rename the outputs to the versioned names this script
+;       expects:  SpideyCompanion-v1.3.0.exe  (+ the same for .config)
+;       (this script reads the exe + config from ..\dist, docs from
+;        ..\package, sources from ..\src, relative to its own folder;
+;        the GitHub Action does the rename automatically)
+;    2. Compile:         "C:\Program Files (x86)\Inno Setup 6\ISCC.exe" installer\SpideyCompanion.iss
+;       Output: installer\Output\SpideyCompanion-Setup-v1.4.0.exe
+;  OR push a v* tag / run the "Build installer" GitHub Action in this
+;  repo (.github/workflows/build-installer.yml) and download the result.
+;
+;  SmartScreen note: an unsigned installer still shows the Windows
+;  "unknown publisher" prompt. Only a paid code-signing certificate
+;  removes that - there is no script-side workaround.
+; ============================================================================
+
+#define AppName "Spidey Companion"
+#define AppVersion "1.3.0"
+#define ExeName "SpideyCompanion-v1.3.0.exe"
+#define StageDir "..\dist"
+#define PkgDir "..\package"
+#define SrcDir "..\src"
+
+[Setup]
+; AppId is this product's permanent identity - NEVER change it, or
+; upgrades/uninstalls will stop matching earlier installs.
+AppId={{0133FFD4-30BD-421B-BB17-87FA57E877C5}
+AppName={#AppName}
+AppVersion={#AppVersion}
+AppPublisher=Bailey Powell
+DefaultDirName={localappdata}\SpideyCompanion
+DefaultGroupName=Spidey Companion
+DisableProgramGroupPage=yes
+PrivilegesRequired=lowest
+OutputDir=Output
+OutputBaseFilename=SpideyCompanion-Setup-v{#AppVersion}
+UninstallDisplayIcon={app}\{#ExeName}
+Compression=lzma2
+SolidCompression=yes
+WizardStyle=modern
+CloseApplications=yes
+RestartIfNeededByRun=no
+
+[Tasks]
+Name: "autostart"; Description: "Start Spidey Companion automatically with Windows"; GroupDescription: "Startup:"; Flags: checkedonce
+
+[InstallDelete]
+; Clear superseded versioned exes from earlier installs (bat or setup)
+; so the folder always holds exactly one companion build.
+Type: files; Name: "{app}\SpideyCompanion-v*.exe"
+Type: files; Name: "{app}\SpideyCompanion-v*.exe.config"
+Type: files; Name: "{app}\SpiderCompanion.exe"
+Type: filesandordirs; Name: "{localappdata}\SpiderCompanion"
+
+[Files]
+Source: "{#StageDir}\{#ExeName}"; DestDir: "{app}"; Flags: ignoreversion
+Source: "{#StageDir}\{#ExeName}.config"; DestDir: "{app}"; Flags: ignoreversion
+Source: "{#PkgDir}\README.txt"; DestDir: "{app}"; Flags: ignoreversion
+Source: "{#PkgDir}\update-feed.txt"; DestDir: "{app}"; Flags: onlyifdoesntexist uninsneveruninstall
+; Full source ships with the app, as the README promises.
+Source: "{#SrcDir}\Program.cs"; DestDir: "{app}"; Flags: ignoreversion
+Source: "{#SrcDir}\Buddy.cs"; DestDir: "{app}"; Flags: ignoreversion
+Source: "{#SrcDir}\
+
+[Icons]
+Name: "{group}\Spidey Companion"; Filename: "{app}\{#ExeName}"
+Name: "{group}\Read Me"; Filename: "{app}\README.txt"
+
+[Registry]
+; The self-updater reads this Run value back to find the exe name -
+; keep the value name and quoted-path format exactly as they are.
+Root: HKCU; Subkey: "Software\Microsoft\Windows\CurrentVersion\Run"; ValueType: string; ValueName: "SpideyCompanion"; ValueData: """{app}\{#ExeName}"""; Flags: uninsdeletevalue; Tasks: autostart
+
+[Run]
+Filename: "{app}\{#ExeName}"; Description: "Start Spidey Companion now"; Flags: nowait postinstall skipifsilent
+
+[Code]
+{ Belt and braces alongside CloseApplications: make sure no older
+  companion build is still running before files are replaced, and
+  stop the app before uninstall removes its files. }
+procedure StopCompanion;
+var
+  ResultCode: Integer;
+begin
+  Exec(ExpandConstant('{sys}\taskkill.exe'), '/IM "SpideyCompanion*.exe" /F', '',
+       SW_HIDE, ewWaitUntilTerminated, ResultCode);
+  Exec(ExpandConstant('{sys}\taskkill.exe'), '/IM SpiderCompanion.exe /F', '',
+       SW_HIDE, ewWaitUntilTerminated, ResultCode);
+end;
+
+function InitializeSetup(): Boolean;
+begin
+  StopCompanion;
+  Result := True;
+end;
+
+function InitializeUninstall(): Boolean;
+begin
+  StopCompanion;
+  Result := True;
+end;
