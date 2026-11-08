@@ -1,5 +1,5 @@
 ; ============================================================================
-;  Spidey Companion - Inno Setup installer script (v1.3.0)
+;  Spidey Companion - Inno Setup installer script (v1.3.1)
 ;
 ;  Per-user install (no admin):  %LOCALAPPDATA%\SpideyCompanion
 ;  - matches the self-updater, which swaps the exe in that folder
@@ -8,10 +8,10 @@
 ;
 ;  HOW TO BUILD THE INSTALLER
 ;  This script is compiled on WINDOWS (Inno Setup is Windows-only):
-;    1. Build the app:   dotnet build src -c Release -o build-out
+;    1. Build the app:   dotnet build src -c Release -o dist
 ;       then rename the outputs to the versioned names this script
-;       expects:  SpideyCompanion-v1.3.0.exe  (+ the same for .config)
-;       (this script reads the exe + config from ..\build-out, docs from
+;       expects:  SpideyCompanion-v1.3.1.exe  (+ the same for .config)
+;       (this script reads the exe + config from ..\dist, docs from
 ;        ..\package, sources from ..\src, relative to its own folder;
 ;        the GitHub Action does the rename automatically)
 ;    2. Compile:         "C:\Program Files (x86)\Inno Setup 6\ISCC.exe" installer\SpideyCompanion.iss
@@ -25,9 +25,9 @@
 ; ============================================================================
 
 #define AppName "Spidey Companion"
-#define AppVersion "1.3.0"
-#define ExeName "SpideyCompanion-v1.3.0.exe"
-#define StageDir "..\build-out"
+#define AppVersion "1.3.1"
+#define ExeName "SpideyCompanion-v1.3.1.exe"
+#define StageDir "..\dist"
 #define PkgDir "..\package"
 #define SrcDir "..\src"
 
@@ -44,6 +44,7 @@ DisableProgramGroupPage=yes
 PrivilegesRequired=lowest
 OutputDir=Output
 OutputBaseFilename=SpideyCompanion-Setup-v{#AppVersion}
+SetupIconFile=spidey.ico
 UninstallDisplayIcon={app}\{#ExeName}
 Compression=lzma2
 SolidCompression=yes
@@ -70,6 +71,7 @@ Source: "{#PkgDir}\update-feed.txt"; DestDir: "{app}"; Flags: onlyifdoesntexist 
 ; Full source ships with the app, as the README promises.
 Source: "{#SrcDir}\Program.cs"; DestDir: "{app}"; Flags: ignoreversion
 Source: "{#SrcDir}\Buddy.cs"; DestDir: "{app}"; Flags: ignoreversion
+Source: "{#SrcDir}\
 
 [Icons]
 Name: "{group}\Spidey Companion"; Filename: "{app}\{#ExeName}"
