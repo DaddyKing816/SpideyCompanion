@@ -43,6 +43,8 @@ namespace SpideyCompanion
         public static int SizePx = 128;       // the poses' native size
         public static double Pace = 1.0;      // 0.7 chill / 1.0 normal / 1.5 zippy
         public static int Monitor = 0;
+        public static bool WallpaperOnly = false;  // stay behind other windows, on the desktop layer
+        public static int Swing = 2;          // jump profile: 0 small / 1 classic / 2 big
 
         private static string FilePath
         {
@@ -67,6 +69,8 @@ namespace SpideyCompanion
                     if (kv.Length != 2) continue;
                     string k = kv[0].Trim(), v = kv[1].Trim();
                     if (k == "buddy") BuddyVisible = v != "0";
+                    else if (k == "wallonly") WallpaperOnly = v != "0";
+                    else if (k == "swing") { int n; if (int.TryParse(v, out n) && n >= 0 && n <= 2) Swing = n; }
                     else if (k == "size") { int n; if (int.TryParse(v, out n) && (n == 96 || n == 128 || n == 160)) SizePx = n; }
                     else if (k == "pace") { double d; if (double.TryParse(v, System.Globalization.NumberStyles.Float, System.Globalization.CultureInfo.InvariantCulture, out d) && d > 0.2 && d < 3.0) Pace = d; }
                     else if (k == "monitor") { int n; if (int.TryParse(v, out n) && n >= 0 && n < 16) Monitor = n; }
@@ -82,6 +86,8 @@ namespace SpideyCompanion
                 File.WriteAllLines(FilePath, new[]
                 {
                     "buddy=" + (BuddyVisible ? "1" : "0"),
+                    "wallonly=" + (WallpaperOnly ? "1" : "0"),
+                    "swing=" + Swing,
                     "size=" + SizePx,
                     "pace=" + Pace.ToString(System.Globalization.CultureInfo.InvariantCulture),
                     "monitor=" + Monitor
@@ -219,6 +225,9 @@ namespace SpideyCompanion
             ref POINT pptDst, ref SIZE psize, IntPtr hdcSrc, ref POINT pptSrc,
             int crKey, ref BLENDFUNCTION pblend, int dwFlags);
         [DllImport("user32.dll")]
+        protected static extern bool SetWindowPos(IntPtr hWnd, IntPtr hWndInsertAfter,
+            int x, int y, int cx, int cy, uint flags);
+        [DllImport("user32.dll")]
         protected static extern IntPtr GetDC(IntPtr hWnd);
         [DllImport("user32.dll")]
         protected static extern int ReleaseDC(IntPtr hWnd, IntPtr hDC);
@@ -348,6 +357,21 @@ namespace SpideyCompanion
         private State _state = State.Paused;
         private double _x, _yTop;              // window top-left, screen coords
         private bool _facingRight = true;
+
+        // Wallpaper-only layer mode (see Tick).
+        private bool _wallApplied;
+        private double _lastBottomAt;
+        private static readonly IntPtr HwndBottom = (IntPtr)1;
+        private const uint SwpNoMove = 0x0002, SwpNoSize = 0x0001, SwpNoActivate = 0x0010;
+
+        private void ApplyWallMode()
+        {
+            _wallApplied = BuddySettings.WallpaperOnly;
+            TopMost = !_wallApplied;
+            try { if (_web != null) _web.TopMost = !_wallApplied; } catch { }
+            if (_wallApplied)
+                SetWindowPos(Handle, HwndBottom, 0, 0, 0, 0, SwpNoMove | SwpNoSize | SwpNoActivate);
+        }
         private int _pose = 1;
 
         // pause / idle / emotion
@@ -433,7 +457,7 @@ namespace SpideyCompanion
             bool suppressed = _hiddenByFullscreen || !BuddySettings.BuddyVisible;
             if (suppressed) { if (Visible) Hide(); _web.Hide(); return; }
             if (!Visible) Show();
-            Bitmap bmp = BuddyRenderer.GetFrame(_pose, SizePx, !_facingRight);
+            Bitmap bmp = BuddyRenderer.GetFrame(_pose, SizePx, _facingRight);
             PaintLayered(bmp, (int)Math.Round(_x), (int)Math.Round(_yTop));
         }
 
@@ -456,6 +480,16 @@ namespace SpideyCompanion
                 _fsTickCounter = 0;
                 bool fs = IsFullscreenForeground();
                 if (fs != _hiddenByFullscreen) { _hiddenByFullscreen = fs; Render(); }
+            }
+
+            // Wallpaper-only mode: live on the desktop layer, behind every
+            // app window - re-assert bottom position twice a second (not
+            // while he is being dragged).
+            if (BuddySettings.WallpaperOnly != _wallApplied) ApplyWallMode();
+            if (_wallApplied && _state != State.Dragging && now - _lastBottomAt > 0.5)
+            {
+                _lastBottomAt = now;
+                SetWindowPos(Handle, HwndBottom, 0, 0, 0, 0, SwpNoMove | SwpNoSize | SwpNoActivate);
             }
             if (_hiddenByFullscreen || !BuddySettings.BuddyVisible) return;
 
@@ -504,7 +538,7 @@ namespace SpideyCompanion
 
                 case State.Jumping:
                 {
-                    _jumpT += dt * 1.8;
+                    _jumpT += dt * new[] { 2.0, 1.8, 1.5 }[BuddySettings.Swing];
                     if (_jumpT >= 1.0)
                     {
                         _x = _jumpToX;
@@ -676,10 +710,15 @@ namespace SpideyCompanion
             _nextJumpDelay = 30 + Rng.NextDouble() * 30;
             _jumpT = 0;
             _jumpFromX = _x;
-            double dist = (100 + Rng.NextDouble() * 200) * (Rng.Next(2) == 0 ? 1 : -1);
+            // Swing profiles (tray: Swing height). Classic = the macOS
+            // original's numbers; Big is the default - higher and longer.
+            double[] distBase = { 60, 100, 200 }, distVar = { 100, 200, 240 };
+            double[] peakBase = { 90, 160, 280 }, peakVar = { 50, 80, 160 };
+            int sw = BuddySettings.Swing;
+            double dist = (distBase[sw] + Rng.NextDouble() * distVar[sw]) * (Rng.Next(2) == 0 ? 1 : -1);
             double min = Wa.Left + 10, max = Wa.Right - SizePx - 10;
             _jumpToX = Math.Max(min, Math.Min(_x + dist, max));
-            _jumpPeak = 160 + Rng.NextDouble() * 80;
+            _jumpPeak = peakBase[sw] + Rng.NextDouble() * peakVar[sw];
             _facingRight = _jumpToX >= _jumpFromX;
             _emotionPose = -1;
             _state = State.Jumping;
@@ -746,7 +785,7 @@ namespace SpideyCompanion
                 int sy = (short)(m.LParam.ToInt32() >> 16);
                 int px = sx - (int)Math.Round(_x);
                 int py = sy - (int)Math.Round(_yTop);
-                bool opaque = BuddyRenderer.IsOpaqueAt(_pose, SizePx, !_facingRight, px, py);
+                bool opaque = BuddyRenderer.IsOpaqueAt(_pose, SizePx, _facingRight, px, py);
                 m.Result = (IntPtr)(opaque ? HTCLIENT : HTTRANSPARENT);
                 return;
             }
@@ -793,8 +832,8 @@ namespace SpideyCompanion
         private readonly NotifyIcon _tray;
         private readonly ContextMenuStrip _menu;
 
-        private ToolStripMenuItem _showItem;
-        private ToolStripMenuItem _sizeItem, _paceItem, _monitorItem;
+        private ToolStripMenuItem _showItem, _wallItem;
+        private ToolStripMenuItem _sizeItem, _paceItem, _monitorItem, _swingItem;
 
         public BuddyContext()
         {
@@ -817,10 +856,20 @@ namespace SpideyCompanion
             };
             _menu.Items.Add(_showItem);
 
+            _wallItem = new ToolStripMenuItem("Wallpaper only");
+            _wallItem.Click += (s, e) =>
+            {
+                BuddySettings.WallpaperOnly = !BuddySettings.WallpaperOnly;
+                BuddySettings.Save();
+            };
+            _menu.Items.Add(_wallItem);
+
             _sizeItem = new ToolStripMenuItem("Buddy size");
             _menu.Items.Add(_sizeItem);
             _paceItem = new ToolStripMenuItem("Pace");
             _menu.Items.Add(_paceItem);
+            _swingItem = new ToolStripMenuItem("Swing height");
+            _menu.Items.Add(_swingItem);
             _monitorItem = new ToolStripMenuItem("Display");
             _menu.Items.Add(_monitorItem);
             _menu.Items.Add(new ToolStripSeparator());
@@ -877,6 +926,25 @@ namespace SpideyCompanion
         private void RefreshMenu()
         {
             _showItem.Checked = BuddySettings.BuddyVisible;
+            _wallItem.Checked = BuddySettings.WallpaperOnly;
+
+            _swingItem.DropDownItems.Clear();
+            foreach (var opt in new[]
+            {
+                new KeyValuePair<int, string>(0, "Small hop"),
+                new KeyValuePair<int, string>(1, "Classic"),
+                new KeyValuePair<int, string>(2, "Big swing")
+            })
+            {
+                int v = opt.Key;
+                var it = new ToolStripMenuItem(opt.Value) { Checked = BuddySettings.Swing == v };
+                it.Click += (s, e) =>
+                {
+                    BuddySettings.Swing = v;
+                    BuddySettings.Save();
+                };
+                _swingItem.DropDownItems.Add(it);
+            }
 
             _sizeItem.DropDownItems.Clear();
             foreach (var opt in new[]
