@@ -1,6 +1,6 @@
 // ============================================================================
 //  SpideyCompanion - a tiny helper for the Spider-Man live
-//  wallpaper (Wallpaper Engine). Version 1.3.0.
+//  wallpaper (Wallpaper Engine). Version 1.3.1.
 //
 //  WHY THIS EXISTS
 //  Wallpaper Engine's web-wallpaper API can READ what is playing (through
@@ -57,7 +57,7 @@ namespace SpideyCompanion
 {
     internal static class Program
     {
-        private const string Version = "1.3.0";
+        private const string Version = "1.3.1";
 
         // Standard Windows media-key codes, used only as a fallback.
         private const byte VK_MEDIA_NEXT_TRACK = 0xB0;
@@ -397,7 +397,7 @@ namespace SpideyCompanion
         //     feed=<url of a small version file>
         // the companion checks that file on startup and every 12 hours.
         // The version file looks like:
-        //     version=1.3.0
+        //     version=1.3.1
         //     url=<direct link to the new SpideyCompanion.exe>
         //     sha256=<sha-256 of that exe>        (optional, verified)
         // A newer exe is downloaded to the "update" folder, checked
