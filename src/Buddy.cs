@@ -39,7 +39,7 @@ namespace SpideyCompanion
     // ------------------------------------------------------------------
     internal static class BuddySettings
     {
-        public static bool BuddyVisible = true;
+        public static bool BuddyVisible = false;   // off by default (v1.3.1): fresh installs start service-only, buddy enabled from the tray
         public static int SizePx = 128;       // the poses' native size
         public static double Pace = 1.0;      // 0.7 chill / 1.0 normal / 1.5 zippy
         public static int Monitor = 0;
